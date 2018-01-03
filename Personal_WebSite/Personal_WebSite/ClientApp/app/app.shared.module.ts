@@ -9,6 +9,7 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { LayoutComponent } from './components/shared/layout.component';
 
 //Pages
 import { AnasayfaComponent } from './components/sayfalar/anasayfa';
@@ -17,6 +18,7 @@ import { AnasayfaComponent } from './components/sayfalar/anasayfa';
     declarations: [
         AppComponent,
         NavMenuComponent,
+        LayoutComponent,
         CounterComponent,
         FetchDataComponent,
         HomeComponent,
